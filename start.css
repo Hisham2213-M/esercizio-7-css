@@ -1,0 +1,38 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 25% 50% 25%;
+}
+
+#green {
+    grid-column: 1 / 4;
+}
+
+#red {
+    grid-column: 2;
+    grid-row: 2;
+   
+}
+
+#orange {
+    grid-column: 1/3;
+    grid-row: 3;
+}
+
+#blue {
+    grid-column: 3;
+    grid-row:  2/4;
+}
+
+
+#yellow ul{
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    grid-template-rows: 2;
+}
+
+#red ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2;
+}
